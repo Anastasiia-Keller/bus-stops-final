@@ -21,9 +21,10 @@ For security reasons, database credentials are not included in this repository.
 
 In the file server.js, the following placeholder values are used:
 
+```bash
 user: "login",
 password: "password"
-
+```
 
 To run the backend, these placeholders must be replaced with valid database credentials.
 
