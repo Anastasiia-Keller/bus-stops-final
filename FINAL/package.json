@@ -1,0 +1,16 @@
+{
+  "name": "kontrolltoo-busstops",
+  "version": "1.0.0",
+  "description": "Kontrolltöö – Bus stops application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "Anastasiia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mysql2": "^3.9.7"
+  }
+}
