@@ -13,7 +13,7 @@ The user can select a region and a bus stop with autocomplete, view available bu
 2. Install dependencies:
    ```bash
    npm install
-```
+   ```
 
 # Database credentials
 
