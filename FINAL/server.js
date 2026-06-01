@@ -5,10 +5,10 @@ const PORT = process.env.PORT || 3000;
 
 // ===== DB =====
 const db = mysql.createConnection({
-  host: "d26893.mysql.zonevs.eu",
-  user: "user",
-  password: "password",
-  database: "d26893_busstops"
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME
 });
 
 db.connect(err => {
